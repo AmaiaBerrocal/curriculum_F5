@@ -15,7 +15,8 @@ header {
   background-color: blueviolet;
   grid-template-columns: 1fr auto;
 }
-.fn {
+.fn { 
+  padding: 0.5rem;
  
 }
 
