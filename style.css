@@ -6,35 +6,65 @@
 body {
   font: 16px Helvetica, Sans-Serif;
   line-height: 24px;
-  width: 800px;
-  margin: 40px auto 60px;
+  width: 70vw;
+  margin: 1rem auto;
 }
 
 header {
   display: grid;
   background-color: rgb(194, 186, 194);
-  grid-template-columns: 1fr auto;
-  padding: 0.75rem;
-  margin:0 1rem;
+  grid-template-columns: 4fr 1fr;
 }
-#objective {
+
+div {
+  margin: 1.5rem;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+dt {
+  text-align: right;
   font-style: italic;
-  padding-top: 0.75rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgb(116, 63, 12);
+}
+
+h2 {
+  color: rgb(116, 63, 12);
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+dd {
+  padding-left: 1rem;
+  margin: 0.5rem;
+  border-left: solid chocolate;
+}
+
+ul {
+  margin: 0 1rem;
 }
 
 .fn { 
   padding: 0.5rem;
 }
 
-dl {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 1rem;
+.date {
+  text-align: start;
 }
 
 #pic {
-  width: 80px;
-  height: 125px;
-  border: 1px solid #999;
-  padding: 1rem;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+#objective {
+  font-style: italic;
+  padding-top: 0.75rem;
 }
