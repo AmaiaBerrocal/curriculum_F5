@@ -12,12 +12,18 @@ body {
 
 header {
   display: grid;
-  background-color: blueviolet;
+  background-color: rgb(194, 186, 194);
   grid-template-columns: 1fr auto;
+  padding: 0.75rem;
+  margin:0 1rem;
 }
+#objective {
+  font-style: italic;
+  padding-top: 0.75rem;
+}
+
 .fn { 
   padding: 0.5rem;
- 
 }
 
 dl {
